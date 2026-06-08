@@ -182,7 +182,7 @@ DMEM 延迟 > IMEM 延迟
 
 <img width="1960" height="977" alt="image" src="https://github.com/user-attachments/assets/2a8c0186-992b-44a8-98a9-36fb689a3ba5" />
 
-## 二级流水线数据通路（提前取值版本）
+## 二级流水线数据通路（提前取指版本）
 
 <img width="1874" height="863" alt="屏幕截图 2026-06-08 151603" src="https://github.com/user-attachments/assets/51eabb9c-17c9-448c-8e02-9dc679728518" />
 
