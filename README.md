@@ -1,27 +1,52 @@
-# CS Foundation Portfolio
+# peeling-the-abstraction
 
-计算机系统与底层架构学习记录
+Understanding computers by exploring the layers beneath software abstractions.
 
-用于记录计算机科学基础课程、项目实践与学习笔记。
+本仓库用于记录计算机科学学习过程中的课程笔记、项目实践、调试记录与阶段性总结。
 
-当前目标方向为网络安全，采用自底向上的学习路线，从计算机系统、操作系统与网络基础逐步深入。
-
----
-
-## 🎯 当前目标
-
-* 理解计算机系统的整体运行机制
-* 建立系统架构、内存模型与程序执行流程的抽象
-* 理解软硬件之间的交互方式
-* 为后续系统、安全与网络相关学习打下基础
+学习路线以系统方向为核心，从计算机体系结构、操作系统、网络逐步深入，探索软件抽象之下计算机的实际运行机制。
 
 ---
 
-## 📚 学习路径
+## 🎯 Current Focus
 
-### CS61C: Computer Architecture（已完成）
+### MIT 6.S081: Operating System Engineering（进行中）
 
-**时间：2026.04 - 2026.06**
+当前学习重点：
+
+* 系统调用
+* 进程与线程
+* 虚拟内存
+* 中断与异常处理
+* 文件系统
+* 并发与同步
+* xv6 内核实现分析
+
+学习目标：
+
+* 理解操作系统核心机制
+* 建立系统级调试与分析能力
+* 提升阅读和理解内核源码的能力
+
+---
+
+## 🗺️ Learning Path
+
+* [x] CS50x — Introduction to Computer Science
+* [x] CS61B — Data Structures
+* [x] CS61C — Computer Architecture
+* [ ] MIT 6.S081 — Operating System Engineering
+* [ ] Computer Networks
+* [ ] Security Fundamentals
+* [ ] System Security
+
+---
+
+## 📚 Completed Courses
+
+### CS61C: Computer Architecture
+
+**2026.04 - 2026.06**
 
 主要内容：
 
@@ -39,104 +64,87 @@
 * Logisim CPU 设计
 * 图像卷积性能优化（SIMD / OpenMP）
 
-**收获：**
+核心收获：
 
 * 建立从程序到硬件执行过程的整体认知
 * 理解存储层次结构与性能优化原理
-* 理解程序在现代计算机中的实际执行方式
-* 具备阅读和分析底层系统行为的基础能力
+* 理解硬件与软件之间的交互方式
 
 ---
 
-### CS61B: Data Structures（已完成）
+### CS61B: Data Structures
+
+主要内容：
 
 * 基于 Java 的数据结构设计与实现
 * 算法复杂度分析
 
-**收获：**
+收获：
 
-* 小型项目架构能力
-* 时空复杂度优化意识
+* 理解常见数据结构设计思想
+* 建立时空复杂度分析意识
+* 提升项目组织与实现能力
 
 ---
 
-### CS50x: Introduction to Computer Science（已完成）
+### CS50x: Introduction to Computer Science
+
+主要内容：
 
 * C 与 Python 编程基础
 * 计算机科学核心概念
 
-**收获：**
+收获：
 
-* 从底层到应用层的整体认知框架
-
----
-
-## 🚀 当前学习
-
-### MIT 6.S081: Operating System Engineering（进行中）
-
-重点内容：
-
-* 操作系统抽象与系统调用
-* 进程与线程
-* 虚拟内存
-* 中断与异常处理
-* 文件系统
-* 并发与同步
-* xv6 内核实现分析
-
-目标：
-
-* 理解操作系统核心机制
-* 提升系统级调试与分析能力
-* 建立阅读内核源码的能力
+* 建立从编程基础到计算机科学的整体认知
 
 ---
 
-## 🛠️ 目前熟悉的工具与环境
+## 📝 Learning Log
 
-### 调试与系统分析
+### 2026.06
 
-* GDB
-* 基础内存调试与栈分析
-* 用户态与内核态基本机制
+* 完成 CS61C: Computer Architecture
+* 完成 SIMD / OpenMP 卷积优化项目
+* 开始 MIT 6.S081 学习
 
-### 开发环境
+---
+
+## 🛠️ Tools & Environment
+
+### Development
 
 * Linux / WSL
 * GCC
 * Make
 * Shell
 
-### 版本控制
+### Debugging & Analysis
+
+* GDB
+* 内存分析
+* 栈追踪
+* 用户态与内核态基础机制
+
+### Version Control
 
 * Git
-* Branch、Merge 与 Rebase
-
-### 数学基础（进行中）
-
-* 离散数学
-* 微积分
+* Branch
+* Merge
+* Rebase
 
 ---
 
-## 🧠 仓库内容说明
+## 📂 Repository Notes
 
-⚠️ 不包含课程原始作业代码（遵守学术诚信）
+⚠️ 本仓库不包含课程原始作业代码（遵守学术诚信）。
 
-本仓库主要记录：
+主要记录：
 
-* 课程笔记与知识总结
+* 课程笔记
+* 知识总结
 * 项目实现思路
-* 调试记录
+* 调试过程
 * 性能优化分析
 * 学习过程中的问题与思考
-
 ---
-
-## 🚧 后续规划
-
-* 完成 MIT 6.S081
-* 计算机网络
-* 网络安全基础
-* 系统安全与漏洞利用
