@@ -19,7 +19,7 @@
 int main() {
     int row_num = 18;
     
-    // 💥案发现场：错误使用了 sizeof(char)
+    // 错误使用了 sizeof(char)
     char **board = malloc(sizeof(char) * row_num); 
 
     for (int r = 0; r < 5; r++) { 
